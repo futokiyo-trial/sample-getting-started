@@ -17,6 +17,8 @@ import javax.inject.Provider;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
+import io.github.futokiyo.jougai.Edomae;
+
 @ApplicationScoped
 public class SystemConfig {
 
@@ -26,6 +28,10 @@ public class SystemConfig {
 
 
   public boolean isInMaintenance() {
+  	System.out.println("SystemConfig#isInMaintenance() start");
+  	Edomae edomae = new Edomae();
+  	edomae.hello();
+  	System.out.println("SystemConfig#isInMaintenance() end");
     return inMaintenance.get();
   }
 }

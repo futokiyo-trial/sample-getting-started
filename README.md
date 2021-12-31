@@ -2,6 +2,13 @@
 
 The sample application contains a system microservice to retrieve the system properties and uses MicroProfile Config to simulate the status of the microservice, MicroProfile Health to determine the health of the microservice, and MicroProfile Metrics to provide metrics for the microservice.
 
+## install  tsukiji
+```
+git clone https://github.com/futokiyo-trial/tsukiji.git
+cd tsukiji
+mvn clean install
+```
+
 ## Run Sample application (press [ENTER] key to run tests; q [ENTER] to quit and stop server)
     mvn liberty:dev
 

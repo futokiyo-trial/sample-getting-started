@@ -33,6 +33,11 @@
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>io.github.futokiyo</groupId>
+      <artifactId>jougai</artifactId>
+      <version>0.1.0</version>
+    </dependency>
     <!-- Dependencies for tests -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
